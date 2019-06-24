@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ming/CLionProjects/Serial_port/main.cpp
+iostream
+-
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+math.h
+/home/ming/CLionProjects/Serial_port/math.h
+fcntl.h
+-
+unistd.h
+-
+termios.h
+-
+
